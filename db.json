@@ -1,0 +1,76 @@
+{
+    "alerts": [
+        {
+            "id": 0,
+            "title": "Heavy traffic",
+            "message": "Attention!\nIn [$0] there will be a heavy traffic.",
+            "type": 0,
+            "latitude": "41.352765",
+            "longitude": "2.128515"
+        },
+        {
+            "id": 1,
+            "title": "Work in progress",
+            "message": "Attention!\nA construction site is planned in [$0].",
+            "type": 1,
+            "latitude": "41.352427",
+            "longitude": "2.134384"
+        },
+        {
+            "id": 2,
+            "title": "Hole in the road",
+            "message": "Attention!\nIn [$0] there will be a pothole in the road.",
+            "type": 2,
+            "latitude": "41.346547",
+            "longitude": "2.125629"
+        },  
+        {   
+            "id": 3,
+            "title": "Stopped car",
+            "message": "Attention!\nIn [$0] there will be a stopped car.",
+            "type": 3,
+            "latitude": "41.359304",
+            "longitude": "2.135822"
+        },  
+        {   
+            "id": 4,
+            "title": "Incident",
+            "message": "Attention!\nIn [$0] there will be an incident.",
+            "type": 4,
+            "latitude": "41.354827",
+            "longitude": "2.138933"
+        },  
+        {   
+            "id": 5,
+            "title": "Mobile speed camera",
+            "message": "Attention!\nIn [$0] there will be a mobile speed camera.",
+            "type": 5,
+            "latitude": "41.351380",
+            "longitude": "2.142189"
+        },  
+        {   
+            "id": 6,
+            "title": "Speed camera",
+            "message": "Attention!\nIn [$0] there will be a speed camera.",
+            "type": 6,
+            "latitude": "41.364587",
+            "longitude": "2.137903"
+        },  
+        {   
+            "id": 7,
+            "title": "Danger on the road",
+            "message": "Attention!\nIn [$0] there will be a danger on the road.",
+            "type": 7,
+            "latitude": "41.369337",
+            "longitude": "2.130613"
+        },  
+        {   
+            "id": 8,
+            "title": "Roadblock",
+            "message": "Attention!\nIn [$0] there will be a roadblock.",
+            "type": 8,
+            "latitude": "41.366286",
+            "longitude": "2.122856"
+        }
+    ]
+}
