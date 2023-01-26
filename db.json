@@ -167,5 +167,61 @@
             "message": "Attenzione!\nTra [$0] sarà presente un posto di blocco.",
             "description": "Description not available"
         }
+    ],
+    "alerts": [
+        {
+            "id": 0,
+            "alert_type": 0,
+            "latitude": "41.352765",
+            "longitude": "2.128515"
+        },
+        {
+            "id": 1,
+            "alert_type": 1,
+            "latitude": "41.352427",
+            "longitude": "2.134384"
+        },
+        {
+            "id": 2,
+            "alert_type": 2,
+            "latitude": "41.346547",
+            "longitude": "2.125629"
+        },
+        {
+            "id": 3,
+            "alert_type": 3,
+            "latitude": "41.359304",
+            "longitude": "2.135822"
+        },
+        {
+            "id": 4,
+            "alert_type": 4,
+            "latitude": "41.354827",
+            "longitude": "2.138933"
+        },
+        {
+            "id": 5,
+            "alert_type": 5,
+            "latitude": "41.351380",
+            "longitude": "2.142189"
+        },
+        {
+            "id": 6,
+            "alert_type": 6,
+            "latitude": "41.364587",
+            "longitude": "2.137903"
+        },
+        {
+            "id": 7,
+            "alert_type": 7,
+            "latitude": "41.369337",
+            "longitude": "2.130613"
+        },
+        {
+            "id": 8,
+            "alert_type": 8,
+            "latitude": "41.366286",
+            "longitude": "2.122856"
+        }
     ]
 }
