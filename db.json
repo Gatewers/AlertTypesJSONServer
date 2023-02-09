@@ -1,35 +1,37 @@
 {
-  "alerts": [
-    "errorCode": 0,
-    "errorDesc": "",
-    "data": [
-      {
-      "id": 1,
-      "pmvId": "1",
-      "readTs": "2023-02-08T13:02:54.490719Z",
-      "pmvGeomWkt": "POINT(3.1896238 39.954075)",
-      "pmvMsg": "General",
-      "pmvImg": "P50O",
-      "pmvType": 1,
-      "pmvProv": "37",
-      "pmvRoad": "N-630a",
-      "pmvPk": 322,
-      "pmvPkIni": 0,
-      "pmvPkFin": 0,
-      "pmvDirection": 1,
-      "pmvCategory": 0,
-      "pmvMode": 1,
-      "pmvProvFin": "0",
-      "pmvRoadFin": "0",
-      "gid": "GUID_Suc_3009137_3009137",
-      "pmvEvent": 0,
-      "latitude": 39.954075,
-      "longitude": 3.189624,
-      "categoryName": "que",
-      "modeName": "que",
-      "directionName": "que",
-      "geomTypeName": "que"
-      }
+    "alerts": [
+        {
+            "errorCode": 0,
+            "errorDesc": "",
+            "data": [
+                {
+                    "id": 1,
+                    "pmvId": "1",
+                    "readTs": "2023-02-08T13:02:54.490719Z",
+                    "pmvGeomWkt": "POINT(3.1896238 39.954075)",
+                    "pmvMsg": "General",
+                    "pmvImg": "P50O",
+                    "pmvType": 1,
+                    "pmvProv": "37",
+                    "pmvRoad": "N-630a",
+                    "pmvPk": 322,
+                    "pmvPkIni": 0,
+                    "pmvPkFin": 0,
+                    "pmvDirection": 1,
+                    "pmvCategory": 0,
+                    "pmvMode": 1,
+                    "pmvProvFin": "0",
+                    "pmvRoadFin": "0",
+                    "gid": "GUID_Suc_3009137_3009137",
+                    "pmvEvent": 0,
+                    "latitude": 39.954075,
+                    "longitude": 3.189624,
+                    "categoryName": "que",
+                    "modeName": "que",
+                    "directionName": "que",
+                    "geomTypeName": "que"
+                }
+            ]
+        }
     ]
-   ]
 }
