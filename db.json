@@ -1,227 +1,33 @@
-
 {
-    "alert_types_en": [
-        {
-            "id": 0,
-            "title": "Heavy traffic",
-            "message": "Attention!\nIn [$0] there will be a heavy traffic.",
-            "description": "Description not available"
-        },
-        {
-            "id": 1,
-            "title": "Work in progress",
-            "message": "Attention!\nA construction site is planned in [$0].",
-            "description": "Description not available"
-        },
-        {
-            "id": 2,
-            "title": "Hole in the road",
-            "message": "Attention!\nIn [$0] there will be a pothole in the road.",
-            "description": "Description not available"
-        },
-        {
-            "id": 3,
-            "title": "Stopped car",
-            "message": "Attention!\nIn [$0] there will be a stopped car.",
-            "description": "Description not available"
-        },
-        {
-            "id": 4,
-            "title": "Incident",
-            "message": "Attention!\nIn [$0] there will be an incident.",
-            "description": "Description not available"
-        },
-        {
-            "id": 5,
-            "title": "Mobile speed camera",
-            "message": "Attention!\nIn [$0] there will be a mobile speed camera.",
-            "description": "Description not available"
-        },
-        {
-            "id": 6,
-            "title": "Speed camera",
-            "message": "Attention!\nIn [$0] there will be a speed camera.",
-            "description": "Description not available"
-        },
-        {
-            "id": 7,
-            "title": "Danger on the road",
-            "message": "Attention!\nIn [$0] there will be a danger on the road.",
-            "description": "Description not available"
-        },
-        {
-            "id": 8,
-            "title": "Roadblock",
-            "message": "Attention!\nIn [$0] there will be a roadblock.",
-            "description": "Description not available"
-        }
-    ],
-    "alert_types_es": [
-        {
-            "id": 0,
-            "title": "Trafico intenso",
-            "message": "Ten cuidado!\nIn [$0] se encuentra tráfico intenso.",
-            "description": "Description not available"
-        },
-        {
-            "id": 1,
-            "title": "Obras",
-            "message": "Ten cuidado!\nA hay obras en unos [$0].",
-            "description": "Description not available"
-        },
-        {
-            "id": 2,
-            "title": "Carretera en mal estado",
-            "message": "Ten cuidado!\nIn [$0] se encuentra un tramo de la carretera en mal estado.",
-            "description": "Description not available"
-        },
-        {
-            "id": 3,
-            "title": "Vehículo averiado",
-            "message": "Ten cuidado!\nIn [$0] se encuentra un vehúiculo averiado",
-            "description": "Description not available"
-        },
-        {
-            "id": 4,
-            "title": "Accidente",
-            "message": "Ten cuidado!\nIn [$0] se encuentra un accidente de tráfico.",
-            "description": "Description not available"
-        },
-        {
-            "id": 5,
-            "title": "Radar",
-            "message": "Ten cuidado!\nIn [$0] se encuentra un radar. Modéra tu velocidad.",
-            "description": "Description not available"
-        },
-        {
-            "id": 6,
-            "title": "Radar",
-            "message": "Ten cuidado!\nIn [$0] se encuentra un radar. Modéra tu velocidad.",
-            "description": "Description not available"
-        },
-        {
-            "id": 7,
-            "title": "Peligro en la carretera",
-            "message": "Ten cuidado!\nIn [$0] se encuentra un peligro en la carretera.",
-            "description": "Description not available"
-        },
-        {
-            "id": 8,
-            "title": "Control policial",
-            "message": "Ten cuidado!\nIn [$0] hay un control policial.",
-            "description": "Description not available"
-        }
-    ],
-    "alert_types_it": [
-        {
-            "id": 0,
-            "title": "Traffico intenso",
-            "message": "Attenzione!\nTra [$0] sarà presente del traffico intenso.",
-            "description": "Description not available"
-        },
-        {
-            "id": 1,
-            "title": "Lavori in corso",
-            "message": "Attenzione!\nÈ previsto un cantiere tra [$0].",
-            "description": "Description not available"
-        },
-        {
-            "id": 2,
-            "title": "Buca sulla strada",
-            "message": "Attenzione!\nTra [$0] sarà presente una buca sulla strada.",
-            "description": "Description not available"
-        },
-        {
-            "id": 3,
-            "title": "Macchina ferma",
-            "message": "Attenzione!\nTra [$0] sarà presente una macchina ferma.",
-            "description": "Description not available"
-        },
-        {
-            "id": 4,
-            "title": "Incidente",
-            "message": "Attenzione!\nTra [$0] sarà presente un incidente.",
-            "description": "Description not available"
-        },
-        {
-            "id": 5,
-            "title": "Autovelox mobile",
-            "message": "Attenzione!\nTra [$0] sarà presente un autovelox mobile.",
-            "description": "Description not available"
-        },
-        {
-            "id": 6,
-            "title": "Autovelox",
-            "message": "Attenzione!\nTra [$0] sarà presente un autovelox.",
-            "description": "Description not available"
-        },
-        {
-            "id": 7,
-            "title": "Pericolo sulla strada",
-            "message": "Attenzione!\nTra [$0] sarà presente un pericolo sulla strada.",
-            "description": "Description not available"
-        },
-        {
-            "id": 8,
-            "title": "Posto di blocco",
-            "message": "Attenzione!\nTra [$0] sarà presente un posto di blocco.",
-            "description": "Description not available"
-        }
-    ],
-    "alerts": [
-        {
-            "id": 0,
-            "alerttypeid": 0,
-            "latitude": "41.352765",
-            "longitude": "2.128515"
-        },
-        {
-            "id": 1,
-            "alerttypeid": 1,
-            "latitude": "41.352427",
-            "longitude": "2.134384"
-        },
-        {
-            "id": 2,
-            "alerttypeid": 2,
-            "latitude": "41.346547",
-            "longitude": "2.125629"
-        },
-        {
-            "id": 3,
-            "alerttypeid": 3,
-            "latitude": "41.359304",
-            "longitude": "2.135822"
-        },
-        {
-            "id": 4,
-            "alerttypeid": 4,
-            "latitude": "41.354827",
-            "longitude": "2.138933"
-        },
-        {
-            "id": 5,
-            "alerttypeid": 5,
-            "latitude": "41.351380",
-            "longitude": "2.142189"
-        },
-        {
-            "id": 6,
-            "alerttypeid": 6,
-            "latitude": "41.364587",
-            "longitude": "2.137903"
-        },
-        {
-            "id": 7,
-            "alerttypeid": 7,
-            "latitude": "41.369337",
-            "longitude": "2.130613"
-        },
-        {
-            "id": 8,
-            "alerttypeid": 8,
-            "latitude": "41.366286",
-            "longitude": "2.122856"
-        }
-    ]
+  "errorCode": 0,
+  "errorDesc": "",
+  "data": [
+    {
+      "id": 1,
+      "pmvId": "1",
+      "readTs": "2023-02-08T13:02:54.490719Z",
+      "pmvGeomWkt": "POINT(3.1896238 39.954075)",
+      "pmvMsg": "General",
+      "pmvImg": "P50O",
+      "pmvType": 1,
+      "pmvProv": "37",
+      "pmvRoad": "N-630a",
+      "pmvPk": 322,
+      "pmvPkIni": 0,
+      "pmvPkFin": 0,
+      "pmvDirection": 1,
+      "pmvCategory": 0,
+      "pmvMode": 1,
+      "pmvProvFin": "0",
+      "pmvRoadFin": "0",
+      "gid": "GUID_Suc_3009137_3009137",
+      "pmvEvent": 0,
+      "latitude": 39.954075,
+      "longitude": 3.189624,
+      "categoryName": "que",
+      "modeName": "que",
+      "directionName": "que",
+      "geomTypeName": "que"
+    }
+  ]
 }
